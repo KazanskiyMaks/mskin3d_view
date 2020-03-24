@@ -14,7 +14,7 @@ function radians(d) {
 function textureUrl(hash) {
   //alert();
   //return 'https://texture.namemc.com/' + hash[0] + hash[1] + '/' + hash[2] + hash[3] + '/' + hash + '.png';
-  alert(hash);
+  //alert(hash);
   return hash;
 }
 

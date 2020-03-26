@@ -14,7 +14,7 @@ function radians(d) {
 function textureUrl(hash) {
   //return 'https://texture.namemc.com/' + hash[0] + hash[1] + '/' + hash[2] + hash[3] + '/' + hash + '.png';
   //alert(hash);
-  return hash;
+  return "skins/"+hash+".png";
 }
 
 function toCanvas(image, x, y, w, h) {
